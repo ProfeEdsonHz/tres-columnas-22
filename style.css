@@ -1,10 +1,12 @@
 * {
     border: black solid 1px;
-    color: white;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 html {
     height: 100%;
+    font-size: 15px;
 }
 
 body {
@@ -16,26 +18,54 @@ body {
 
 }
 
+h2 {
+    font-family: 'Big Shoulders Display', cursive !important;
+    font-size: 3rem;
+}
+
 #cars {
     height: 100%;
     display: flex;
 }
 
+article {
+    padding: 1rem;
+    margin: 4rem 0rem;
+}
+
 #sedan {
     background-color: hsl(31, 77%, 52%);
+    margin-left: 4rem !important;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #suvs{
-    background-color: hsl(184, 100%, 22%)
+    background-color: hsl(184, 100%, 22%);
+    
 }
 
 #luxury {
     background-color: hsl(179, 100%, 13%);
+    margin-right: 4rem !important;
+    border-radius: 0px 10px 10px 0px;
+}
+
+input[type="button"]{
+    padding: 1rem;
+    color: black;
+    cursor: pointer;
+    border-radius:30px;
+}
+
+input[type="button"]:hover{
+    background-color: inherit !important;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    color: black !important; 
 }
 
 .attribution a { 
